@@ -1,0 +1,7 @@
+1: Get a def to call 
+2: Call in method through specific method name 
+3: Create a hash 5: Create a question 
+4: gets.chomp to user input 
+5: Input returns into array called 
+6: Return user input into method 
+7: Answer pulls up to show what answer is.
