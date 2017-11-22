@@ -5,3 +5,10 @@
 5: Input returns into array called 
 6: Return user input into method 
 7: Answer pulls up to show what answer is.
+
+
+
+
+
+
+

@@ -1,3 +1,5 @@
+require 'json'
+violation_data = JSON.parse(%q|
 {
   "meta" : {
     "view" : {
@@ -1351,3 +1353,7 @@
 , [ 78, "666BE9A0-7173-427F-AEA7-5F371DCE3A60", 78, 1504902837, "994730", 1504902837, "994730", null, "Child Health Center", "Queens", "Ridgewood Communicare Clinic", "between Woodbine St. & Madison St.", "718-334-6190", [ "{\"address\":\"769 Onderdonk Avenue\",\"city\":\"Ridgewood\",\"state\":\"NY\",\"zip\":\"11385\"}", "40.702949636007894", "-73.90543308996985", null, false ], "11385", "40.702972", "-73.905489", "5", "34", "549", "4083018", "4034700054", "Ridgewood                                                                  " ]
  ]
 }
+
+|)
+
+
