@@ -1,5 +1,5 @@
 require 'json'
-violation_data = JSON.parse(%q|
+hospital_data = JSON.parse(%q|
 {
   "meta" : {
     "view" : {
@@ -1357,3 +1357,16 @@ violation_data = JSON.parse(%q|
 |)
 
 
+def hospital_data ()
+Puts "what hospital would you like to see?"
+end
+
+
+def hospital_num_to_info(hospital,code_num)
+  hospital["data"].each do |hospital|
+    if violation[8] == code_num
+      return {violation_string: violation[9], fine_manhattan: violation[10], fine_other: violation[11]}
+      break
+    end
+  end
+end
